@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mi fromulario(Samu)</title>
+</head>
+<body>
+    <form action="myhome.php" method="post"> <!--postear datos(post), conseguir datos(get)-->
+        <p>Nombre: 
+            <input type="text" name="nombre" size="30">
+        </p>
+        <p>
+            <input type="text" name="nacido" size="40">
+        </p>
+        <p>
+            <input type="checkbox" name="hm" value="h">Hombre
+            <input type="radio" name="hm" value="m">Mujer
+
+        </p>
+
+        <p>
+            Selecciona un lenguaje:
+            <select name="lenguajes" id="2" size="4">
+                <option value="Java">Java</option>
+                <option value="PhP">PhP</option>
+                <option value="JS">JS</option>
+                <option value="Python">Python</option>
+                <option value="R">R</option>
+            </select>
+        </p>
+        <br>
+        <p>Comentarios:</p>
+        <textarea name="Escribe_algo" id="t1"></textarea>
+    </form>
+</body>
+</html>
