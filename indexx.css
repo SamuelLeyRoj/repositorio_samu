@@ -6,13 +6,13 @@ body{
 
 @keyframes backgroundColorChange {
     0% {
-      background-color: purple; /* Color inicial */
+      background-color: purple; 
     }
     50% {
-      background-color: pink; /* Color intermedio */
+      background-color: pink;  
     }
     100% {
-      background-color: blueviolet /* Color final */
+      background-color: blueviolet;
     }
   }
 
